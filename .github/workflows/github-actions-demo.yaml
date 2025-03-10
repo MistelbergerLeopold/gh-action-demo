@@ -15,5 +15,5 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
-          ls ${{ github.workspace }}/gh-action-demo
+          ls ${{ github.workspace }}/github-action-demo
       - run: echo "🍏 This job's status is ${{ job.status }}."
